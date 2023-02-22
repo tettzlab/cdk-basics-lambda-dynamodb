@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import 'source-map-support/register'
 import * as cdk from 'aws-cdk-lib'
-import { CdkBasicsLambdaDynamoDBStack } from '../src/cdk-basics-lambda-dynamodb-stack'
+import { CdkBasicsLambdaDynamoDBStack } from '../stack/cdk-basics-lambda-dynamodb-stack'
 
 const app = new cdk.App()
 new CdkBasicsLambdaDynamoDBStack(app, 'CdkBasicsLambdaDynamoDBStack', {
